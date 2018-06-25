@@ -1,0 +1,17 @@
+<!doctype html>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <div id="container">
+        <input type="text" v-model="username">
+        <input type="text" v-model="peername">
+        <button @click="login"> login </button>
+        <button @click="peerconnect"> offer </button>
+    </div>
+    <div>
+        <video id="vscreen" autoplay controls></video>
+    </div>
+
+
+    <script src="./client.js"></script>
+</body>
